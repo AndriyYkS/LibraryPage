@@ -174,11 +174,7 @@ li a:hover:not(.active) {
   }
 
 
-
-
-
-
-  .container_header {
+   .container_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

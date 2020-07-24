@@ -37,13 +37,6 @@ a
 
 
 
-
-
-
-
-
-
-
 ul {
   
   margin: 0;
@@ -124,20 +117,18 @@ li a:hover:not(.active) {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+
 }
 
 .item {
   width: 32%;
-  padding-bottom: 3%; /* Same as width, sets height */
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  padding-bottom: 5px; /* Same as width, sets height */
+  margin-bottom: 8px; /* (100-32*3)/2 */
   /*position: relative; */
   margin-left: 1%;
-  margin-top: 1%;
+  margin-top: 3px;
 }
-
-
 
 
  #main {
@@ -174,11 +165,7 @@ li a:hover:not(.active) {
   }
 
 
-
-
-
-
-  .container_header {
+   .container_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

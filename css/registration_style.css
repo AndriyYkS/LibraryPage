@@ -1,0 +1,153 @@
+.header {
+  padding: 50px;
+ /* text-align: center; */
+  background: #1abc9c;
+  color: white;
+}
+
+.table
+{
+	margin-top: 50px;
+  /*margin-left:  50px; */
+
+}
+.baner_name
+{
+	padding-top: 5px;
+	font-family: "Existence Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #FFFEC9;
+}
+body
+{
+	/*margin:0px; */
+  	background-color: lightblue;
+	
+}
+section
+{
+	margin: auto; 
+	background-color: white ;  /*linear-gradient(to right bottom, #FFD6C4 20% ,#8CCAFF);  */
+	height: 750px;
+	width: 620px;
+	border-radius: 20px;
+}
+form
+{
+	border-radius: 10px;
+	font: "Existence Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 600px;
+	height: 600px;
+}
+fieldset
+{
+	margin:0;
+	border: 0;
+	padding:0;
+}
+input
+{
+/*	border-radius: 5px; */
+	font: 15px/2 "Existence Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin:0;
+}
+
+a{
+  text-decoration: none;
+}
+.account-info
+{
+	padding:10px 10px 10px 10px;
+}
+
+.account-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.account-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action 
+{
+  padding: 10px;
+ }
+ .account-action .btn {
+  background: linear-gradient(#49708f,#9D2CFF);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left; 
+  padding: 8px 16px; 
+  margin-left: 250px;
+}
+.account-action label {
+  color: #66707F;
+  font-size: 10px;
+  float: left;
+  margin: 10px 0 0 10px;
+}
+.checkbox_duttom
+{
+	border-radius: 10px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
